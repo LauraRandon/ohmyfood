@@ -1,0 +1,17 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    background-color: white;
+}
+a {
+    text-decoration: none;
+}
+.prim {
+    color: #9356DC;
+}
+.second {
+    color: #FF79DA;
+}
+.tert {
+    color: #99E2D0;
+}
