@@ -67,11 +67,57 @@ a {
     background: linear-gradient(145deg, #FF79DA, #9356DC);
     -webkit-box-shadow: 5px 8px 20px -4px #555; 
     box-shadow: 5px 8px 20px -4px #555; 
+    transition: all .2s ease-in-out;
 }
 .cta:hover {
     background: linear-gradient(145deg, #d952b3, #7036b6);
     -webkit-box-shadow: 8px 11px 23px -7px #555; 
     box-shadow: 8px 11px 23px -7px #555; 
+}
+.section2 {
+    padding: 20px;
+    margin-top: 10px;
+}
+.h1-section2 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: normal;
+}
+.article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.puce {
+    color: white;
+    border-radius: 25px;
+    padding: 2px 10px;
+    background-color: #9356DC;
+    margin: 35px -15px 0px 0px;
+    position: relative;
+    z-index: 1000;
+}
+.div-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 15px;
+    background-color: #F7F7F7;
+    width: 80%;
+    margin: 15px 5px;
+    -webkit-box-shadow: 5px 8px 20px -4px #555; 
+    box-shadow: 5px 8px 20px -4px #555; 
+    order: 0;
+}
+.fa-mobile-screen-button, .fa-list-ul, .fa-store {
+    color: #555555;
+    padding-left: 10px;
+}
+.text-card {
+    padding: 0 30px;
+    font-weight: 600;
+    line-height: normal;
 }
 @media only screen and (min-width: 734px) {
     .header {
@@ -99,6 +145,18 @@ a {
     }
     .texte-lieu {
         font-size: 20px;
+    }
+    .h1-section2 {
+        margin-left: 55px;
+    }
+    .div-section2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .div-card {
+        width: auto;
     }
 }
 
