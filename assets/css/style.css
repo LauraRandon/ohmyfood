@@ -5,6 +5,10 @@ body {
 }
 a {
     text-decoration: none;
+    color: inherit;
+}
+img {
+    object-fit: cover;
 }
 .prim {
     color: #9356DC;
@@ -65,14 +69,12 @@ a {
     padding: 15px 30px;
     margin: 50px 30px;
     background: linear-gradient(145deg, #FF79DA, #9356DC);
-    -webkit-box-shadow: 5px 8px 20px -4px #555; 
-    box-shadow: 5px 8px 20px -4px #555; 
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     transition: all .2s ease-in-out;
 }
 .cta:hover {
     background: linear-gradient(145deg, #d952b3, #7036b6);
-    -webkit-box-shadow: 8px 11px 23px -7px #555; 
-    box-shadow: 8px 11px 23px -7px #555; 
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.3)); 
 }
 .section2 {
     padding: 20px;
@@ -106,9 +108,7 @@ a {
     background-color: #F7F7F7;
     width: 80%;
     margin: 15px 5px;
-    -webkit-box-shadow: 5px 8px 20px -4px #555; 
-    box-shadow: 5px 8px 20px -4px #555; 
-    order: 0;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 .fa-mobile-screen-button, .fa-list-ul, .fa-store {
     color: #555555;
@@ -118,6 +118,112 @@ a {
     padding: 0 30px;
     font-weight: 600;
     line-height: normal;
+}
+.section3 {
+    background-color: #F7F7F7;
+    padding: 20px;
+}
+.h1-section3 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.div-card-section3 {
+    width: 100%;
+}
+.card-section3 {
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    transition: all .2s ease-in-out;
+}
+.card-section3:hover {
+    transform: scale(1.05);
+}
+.img-card-section3{
+    box-sizing: border-box;
+    border-radius: 20px 20px 0 0;
+    width: 350px;
+    height: 210px;
+}
+.new {
+    color: #008460;
+    background-color: #99E2D0;
+    width: 20%;
+    padding: 5px 10px;
+    margin: -200px 0px 150px 250px;
+}
+.div-text-section3 {
+    display: flex;
+    flex-direction: column;
+}
+.h2-section3 {
+    margin: 40px 0 0 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.h2-section3-spe {
+    margin-top: 20px;
+}
+.text-section3 {
+    margin: 3px 0 0 15px;
+}
+.div-heart {
+    margin: -47px 5px 10px 299px;
+}
+.heart-hover {
+    display: none;
+}
+.heart:hover {
+    background-color: #9356DC;
+}
+.heart-hover:hover {
+    display: block;
+    color: #9356DC;
+}
+.footer {
+    background-color: #353535;
+    padding: 20px 30px 30px 30px;
+}
+.h1-footer {
+    font-family: "Shrikhand";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-top: 0;
+}
+.div-nav-footer {
+    display: flex;
+    flex-direction: column;
+}
+.div-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.div-link:hover {
+    color: #99E2D0;
+}
+.fa-utensils, .fa-handshake-angle {
+    color: white;
+    margin-right: 10px;
+    transition: all .2s ease-in-out;
+}
+.link {
+    color: white;
+    padding: 5px 0;
+    transition: all .2s ease-in-out;
+}
+.link:hover {
+    color: #99E2D0;
 }
 @media only screen and (min-width: 734px) {
     .header {
@@ -146,6 +252,9 @@ a {
     .texte-lieu {
         font-size: 20px;
     }
+    .section2 {
+        margin-bottom: 50px;
+    }
     .h1-section2 {
         margin-left: 55px;
     }
@@ -157,6 +266,17 @@ a {
     }
     .div-card {
         width: auto;
+    }
+    .div-card-section3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 75%;
+        margin: auto;
+    }
+    .h1-section3 {
+        margin-left: 55px;
     }
 }
 
