@@ -68,6 +68,11 @@ a {
     -webkit-box-shadow: 5px 8px 20px -4px #555; 
     box-shadow: 5px 8px 20px -4px #555; 
 }
+.cta:hover {
+    background: linear-gradient(145deg, #d952b3, #7036b6);
+    -webkit-box-shadow: 8px 11px 23px -7px #555; 
+    box-shadow: 8px 11px 23px -7px #555; 
+}
 @media only screen and (min-width: 734px) {
     .header {
         display: flex;
