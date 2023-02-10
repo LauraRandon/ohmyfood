@@ -1,5 +1,5 @@
 body {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     background-color: white;
 }
@@ -40,7 +40,6 @@ img {
     align-items: center;
     background-color: #EAEAEA;
     padding: 15px;
-    
 }
 .texte-lieu {
     margin: 0;
@@ -72,10 +71,9 @@ img {
     transition: all .2s ease-in-out;
 }
 .cta:hover {
-    background: linear-gradient(170deg, #d952b3, #7036b6);
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.3)); 
+    transform: scale(1.05);
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.4)); 
 } 
-
 .section2 {
     padding: 20px;
     margin-top: 10px;
@@ -94,11 +92,15 @@ img {
 .puce {
     color: white;
     border-radius: 25px;
-    padding: 3px 10px;
     background-color: #9356DC;
     margin: 35px -15px 0px 0px;
     position: relative;
     z-index: 1000;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .div-card {
     display: flex;
@@ -110,6 +112,7 @@ img {
     width: 80%;
     margin: 15px 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.2));
+    transition: all .2s ease-in-out;
 }
 .div-card:hover {
     background-color: #F6EDFF;
@@ -207,7 +210,7 @@ img {
     padding: 20px 30px 30px 30px;
 }
 .img-footer {
-    width: 15%;
+    width: 30%;
     margin: 15px 0;
 }
 .div-nav-footer {
@@ -289,6 +292,9 @@ img {
     }
     .h1-section3 {
         margin-left: 55px;
+    }
+    .img-footer {
+        width: 15%;
     }
 }
 
