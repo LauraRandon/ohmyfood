@@ -15,6 +15,9 @@
     <script src="https://kit.fontawesome.com/ec0f18ba86.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="loader-page">
+        <span class="loader"></span>
+    </div>
     <header class="header">
         <div class="div-retour">
             <a href="index.html">
@@ -37,78 +40,134 @@
                 <div class="heart"></div>
             </div>
         </section>
-        <section class="content">
-            <h2 class="h2-content">ENTRÉES</h2>
-            <hr>
-            <div class="div-card-content">
-                <article class="card-content">
-                    <h3 class="h3-card">Fricassée d'escargot</h3>
-                    <p class="texte-card">Au piment d'Espelette</p>
-                    <p class="prix-card">25€</p>
-                    <div class="hover-card"></div>
-                </article>
-                <article class="card-content">
-                    <h3 class="h3-card">Foie gras de canard mi-cuit</h3>
-                    <p class="texte-card">Et ses copeaux de truffe noire</p>
-                    <p class="prix-card">35€</p>
-                    <div class="hover-card"></div>
-                </article>
-                <article class="card-content">
-                    <h3 class="h3-card">Œuf au plat</h3>
-                    <p class="texte-card">Assaisonné à la truffe sur lit de caviar</p>
-                    <p class="prix-card">20€</p>
-                    <div class="hover-card"></div>
-                </article>
-            </div>
-        </section>
-        <section class="content">
-            <h2 class="h2-content">PLATS</h2>
-            <hr>
-            <div class="div-card-content">
-                <article class="card-content">
-                    <h3 class="h3-card">Filet de boeuf aux herbes</h3>
-                    <p class="texte-card">Accompagné de sa ribambelle de légumes</p>
-                    <p class="prix-card">40€</p>
-                    <div class="hover-card"></div>
-                </article>
-                <article class="card-content">
-                    <h3 class="h3-card">Parmentier de queue de boeuf</h3>
-                    <p class="texte-card">À la truffe noire sur sa purée de panais</p>
-                    <p class="prix-card">35€</p>
-                    <div class="hover-card"></div>
-                </article>
-                <article class="card-content">
-                    <h3 class="h3-card">Filet de turbot</h3>
-                    <p class="texte-card">Aux agrumes</p>
-                    <p class="prix-card">44€</p>
-                    <div class="hover-card"></div>
-                </article>
-            </div>
-        </section>
-        <section class="content">
-            <h2 class="h2-content">DESSERTS</h2>
-            <hr>
-            <div class="div-card-content">
-                <article class="card-content">
-                    <h3 class="h3-card">Paris-Brest</h3>
-                    <p class="texte-card">Revisité</p>
-                    <p class="prix-card">18€</p>
-                    <div class="hover-card"></div>
-                </article>
-                <article class="card-content">
-                    <h3 class="h3-card">Macaron au chocolat d'exception</h3>
-                    <p class="texte-card">Et glace à la vanille de Madagascar</p>
-                    <p class="prix-card">22€</p>
-                    <div class="hover-card"></div>
-                </article>
-                <article class="card-content">
-                    <h3 class="h3-card">Mousse au chocolat</h3>
-                    <p class="texte-card">Au piment d'Espelette et à la truffe noire</p>
-                    <p class="prix-card">23€</p>
-                    <div class="hover-card"></div>
-                </article>
-            </div>
-        </section>
+        <div class="menu"> 
+            <section class="content">
+                <h2 class="h2-content">ENTRÉES</h2>
+                <hr>
+                <div class="div-card-content">
+                    <article class="card-content">
+                        <div class="texte">
+                            <h3 class="h3-card">Fricassée d'escargot</h3>
+                            <div class="div-texte-prix-card">
+                                <p class="texte-card">Au piment d'Espelette</p>
+                                <p class="prix-card">25€</p>
+                            </div>
+                        </div>
+                        <div class="hover-card">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                        </div>
+                    </article>
+                    <article class="card-content">
+                        <div class="texte">
+                            <h3 class="h3-card">Foie gras de canard mi-cuit</h3>
+                            <div class="div-texte-prix-card">
+                                <p class="texte-card">Et ses copeaux de truffe noire</p>
+                                <p class="prix-card">35€</p>
+                            </div>
+                        </div>
+                        <div class="hover-card">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                        </div>
+                    </article>
+                    <article class="card-content">
+                        <div class="texte">
+                            <h3 class="h3-card">Œuf au plat</h3>
+                            <div class="div-texte-prix-card">
+                                <p class="texte-card">Assaisonné à la truffe sur lit de caviar</p>
+                                <p class="prix-card">20€</p>
+                            </div>
+                        </div>
+                        <div class="hover-card">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="content">
+                <h2 class="h2-content">PLATS</h2>
+                <hr>
+                <div class="div-card-content">
+                    <article class="card-content">
+                        <div class="texte">
+                            <h3 class="h3-card">Filet de boeuf aux herbes</h3>
+                            <div class="div-texte-prix-card">
+                                <p class="texte-card">Accompagné de sa ribambelle de légumes</p>
+                                <p class="prix-card">40€</p>
+                            </div>
+                        </div>
+                        <div class="hover-card">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                        </div>
+                    </article>
+                    <article class="card-content">
+                        <div class="texte">
+                            <h3 class="h3-card">Parmentier de queue de boeuf</h3>
+                            <div class="div-texte-prix-card">
+                                <p class="texte-card">À la truffe noire sur sa purée de panais</p>
+                                <p class="prix-card">35€</p>
+                            </div>
+                        </div>
+                        <div class="hover-card">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                        </div>
+                    </article>
+                    <article class="card-content">
+                        <div class="texte">
+                            <h3 class="h3-card">Filet de turbot</h3>
+                            <div class="div-texte-prix-card">
+                                <p class="texte-card">Aux agrumes</p>
+                                <p class="prix-card">44€</p>
+                            </div>
+                        </div>
+                        <div class="hover-card">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="content">
+                <h2 class="h2-content">DESSERTS</h2>
+                <hr>
+                <div class="div-card-content">
+                    <article class="card-content">
+                        <div class="texte">
+                            <h3 class="h3-card">Paris-Brest</h3>
+                            <div class="div-texte-prix-card">
+                                <p class="texte-card">Revisité</p>
+                                <p class="prix-card">18€</p>
+                            </div>
+                        </div>
+                        <div class="hover-card">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                        </div>
+                    </article>
+                    <article class="card-content">
+                        <div class="texte">
+                            <h3 class="h3-card">Macaron au chocolat d'exception</h3>
+                            <div class="div-texte-prix-card">
+                                <p class="texte-card">Et glace à la vanille de Madagascar</p>
+                                <p class="prix-card">22€</p>
+                            </div>
+                        </div>
+                        <div class="hover-card">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                        </div>
+                    </article>
+                    <article class="card-content">
+                        <div class="texte">
+                            <h3 class="h3-card">Mousse au chocolat</h3>
+                            <div class="div-texte-prix-card">
+                                <p class="texte-card">Au piment d'Espelette et à la truffe noire</p>
+                                <p class="prix-card">23€</p>
+                            </div>
+                        </div>
+                        <div class="hover-card">
+                            <i class="fa-solid fa-circle-check fa-2xl"></i>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
         <div class="div-cta">
             <a href="#" class="cta">Commander</a>
         </div>
@@ -127,7 +186,7 @@
                 <a href="#" class="link">Devenir partenaire</a>
             </div>
             <a href="#" class="link">Mentions légales</a>
-            <a href="#" class="link">Contact</a>
+            <a href="mailto:contact@ohmyfood.com" class="link">Contact</a>
         </div>
     </footer>
 </body>
